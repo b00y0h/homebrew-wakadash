@@ -3,7 +3,7 @@ cask "wakadash" do
   name "wakadash"
   desc "Live terminal dashboard for WakaTime coding stats"
   homepage "https://github.com/b00y0h/wakadash"
-  version "1.1.1"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "wakadash" do
   on_macos do
     on_intel do
       url "https://github.com/b00y0h/wakadash/releases/download/v#{version}/wakadash_#{version}_darwin_amd64.tar.gz"
-      sha256 "7be398db8fd4c2511558d25bfebd6c38b475fc83f91925706ba19d7e54963398"
+      sha256 "57c60320bd3937323f6da0afd695504977ccd7e8062e97a45e982a61648fc634"
     end
     on_arm do
       url "https://github.com/b00y0h/wakadash/releases/download/v#{version}/wakadash_#{version}_darwin_arm64.tar.gz"
-      sha256 "e802b337038813ec2c0684f41ff0c9e6da5349ca5dbc1186e269a6228546d082"
+      sha256 "4d9eba86e8c04e7310bf771f15c15b671d0cb9b4f3ee8c7b662730aa7a9b54d9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/b00y0h/wakadash/releases/download/v#{version}/wakadash_#{version}_linux_amd64.tar.gz"
-      sha256 "8a66993e8f95409d1689c0b0ee5b887e05b8fe1eb14e9c7b2f1ab967eb8f92d8"
+      sha256 "e60cf7f849260327b755479f8a6d08646181d9cbd77f7869296075883ca0c664"
     end
     on_arm do
       url "https://github.com/b00y0h/wakadash/releases/download/v#{version}/wakadash_#{version}_linux_arm64.tar.gz"
-      sha256 "efc7e1b2f8b0eda57171c7e2d6329367c61e84cfd3aca709d5d6580ec100572b"
+      sha256 "4c195601b17aa4ad6ae78e80c49d04d0920722a72399db0c8b5b2118b3721470"
     end
   end
 
